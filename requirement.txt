@@ -1,0 +1,13 @@
+#Installation for JARVIS
+
+------------------------------
+pip install pyttsx3
+------------------------------
+pip install wikipedia
+------------------------------
+pip install SpeechRecognition
+------------------------------
+pip install pypiwin32
+------------------------------
+pip install pyaudio
+------------------------------
