@@ -11,3 +11,17 @@ pip install pypiwin32
 ------------------------------
 pip install pyaudio
 ------------------------------
+
+Note:-
+You are getting any error while installing pyaudio.
+Visit https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+Then press Ctrl + F on your keyboard and type 
+pyadio
+
+Then download binary file according to your python version
+and then open cmd and navigate to download folder and type
+
+pip install YourPythonBinaryFileWhichYouDownloaded
+
+This will definitely solve your problem
