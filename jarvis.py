@@ -4,6 +4,7 @@ import speech_recognition as sr
 import wikipedia
 import webbrowser
 import os
+import pyjoke
 import smtplib
 import random
 import pass1
@@ -128,6 +129,23 @@ if __name__ == "__main__":
 			except Exception as e:
 				print(e)
 				speak("Sorry Hitesh sir,I am not able to send this email")
+				
+	        elif "write a note" in query: 
+                    speak("What should i write, sir") 
+                    note = takeCommand() 
+                    file = open('jarvis.txt', 'w') 
+                    speak("Sir, Should i include date and time") 
+                    snfm = takeCommand() 
+                    if 'yes' in snfm or 'sure' in snfm: 
+                        strTime = datetime.datetime.now().strftime("% H:% M:% S") 
+                        file.write(strTime) 
+                        file.write(" :- ") 
+                        file.write(note) 
+                    else: 
+                        file.write(note) 
+			
+		elif 'joke' in query: 
+                    speak(pyjokes.get_joke()) 	
 			
 
 		elif 'who are you' in query:
