@@ -7,7 +7,7 @@ import os
 import smtplib
 import random
 import pass1
-
+import time
 
 #voice selection for jarvis
 engine = pyttsx3.init()
@@ -129,9 +129,22 @@ if __name__ == "__main__":
 				print(e)
 				speak("Sorry Hitesh sir,I am not able to send this email")
 			
+		elif 'timer' in query or 'stopwatch' in query:
+                    speak("For how many minutes?")
+                    timer = takeCommand()
+                    timer = timer.replace('minutes', '')
+                    timer = timer.replace('minute', '')
+                    timer = timer.replace('in', '')
 
-		elif 'who are you' in query:
-			speak('I am jarvis sir')
+                    timer = float(timer)
+                    timer = timer * 60
+                    speak(f'I will remind you in {timer} seconds')
+
+                    time.sleep(timer)
+                    speak('Your time has been finished sir')
+			
+		elif 'who are you' in query or 'bye' in query:
+			speak('I am jarvis, your virtual assistant. I am here to make your life easier sir')
 		
 		elif 'goodbye' in query:
 			speak('goodbye sir')
