@@ -1,9 +1,9 @@
-# python project
+# Python Project Jarvis (Just A Rather Very Intllegent System )
 
-create jarvis for windows using python
+Creating jarvis for windows using python
 
-Installation
-==============
+Installation Steps
+===================
 
 step 1: open cmd and install requirement.txt
 step 2: under your pass1.py file fill up your details like email id and password
@@ -13,11 +13,11 @@ step 4: open cmd and type "python jarvis.py" to execute jarvis script
 Feel free to ask doubts
 
 
-project overview
+Project Overview
 =================
 https://www.youtube.com/watch?v=HHkI5h1xnPw
 
 
-complete project tutorial 
+Complete project tutorial 
 ==========================
 https://www.youtube.com/watch?v=59sLD4YDUHQ
