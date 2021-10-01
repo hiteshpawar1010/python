@@ -1,4 +1,8 @@
-# python project
+#Python_AI_voice_commanding_assistant
+
+
+
+This is a desktop voice assistant which can help u to search anything on Wikipedia , open google , open other custom application , youtube , play music , send emails , wish you on your birthday and many more. You can help us to upgrade it.
 
 create jarvis for windows using python
 
@@ -11,6 +15,7 @@ step 3: under your jarvis.py file add your file path like your music dir path or
 step 4: open cmd and type "python jarvis.py" to execute jarvis script
 
 Feel free to ask doubts
+
 
 
 project overview
